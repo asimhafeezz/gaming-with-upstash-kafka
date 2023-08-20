@@ -1,0 +1,17 @@
+{
+	"name": "upstash-kafka",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "This web service aims to provide you with insights into achieving player state synchronization in multiplayer games using Upstash Kafka and Node.js.",
+	"scripts": {
+		"start:game-client": "node game-client.js",
+		"start:game-server": "node game-server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"kafkajs": "^2.2.4"
+	}
+}
